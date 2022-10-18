@@ -1,5 +1,6 @@
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=usersAlphaDating;charset=utf8;', 'usersAlphaDating', '*6iu3+[HT!7?');
+$dbh = new PDO('mysql:host=privilegedweb.cp7ajiordp2y.us-east-1.rds.amazonaws.com;dbname=privilegedweb;charset=utf8;', 'privilegedweb', 'SA3MNjQ2LrtMtlF1Gx3F');
+
 if (count($_POST) > 0) {
   $name = htmlspecialchars(trim($_POST['name']));
   $email = htmlspecialchars(trim($_POST['email']));
