@@ -1,4 +1,3 @@
-// const sidebarMenu = document.querySelector('.sidebar-menu');
 // const sidebarItem = document.querySelectorAll('.sidebar-menu-link a');
 // const logoItem = document.querySelector('.sidebar-logo');
 // const menuItemContent = [...document.querySelectorAll('.block-item')];
