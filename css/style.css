@@ -258,21 +258,13 @@ body.active {
 /*}*/
 
 .sidebar-menu.active {
-
     right: 0;
-
     left: 0;
-
     height: calc(100vh - 84px);
-
+    overflow: auto;
     visibility: visible;
-
-    transition-delay: 0s;
-
     transition: all 0.6s ease-in-out;
-
     top: 84px;
-
     overflow: auto;
     background: #F9F6EF;
 
