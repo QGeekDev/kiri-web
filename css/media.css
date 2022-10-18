@@ -1021,10 +1021,12 @@
         flex-direction: column;
         justify-content: flex-start;
         position: absolute;
-        top: -1500px;
         left: 0;
-        transition: all 0.5s ease-in;
         width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0s ease;
     }
 
     .sidebar-menu-link a {
