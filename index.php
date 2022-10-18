@@ -1,5 +1,15 @@
 <?php
-$dbh = new PDO('mysql:host=privilegedweb.cp7ajiordp2y.us-east-1.rds.amazonaws.com;dbname=privilegedweb;charset=utf8;', 'privilegedweb', 'SA3MNjQ2LrtMtlF1Gx3F');
+$dbhost = $_SERVER['RDS_HOSTNAME'];
+$dbport = $_SERVER['RDS_PORT'];
+$dbname = $_SERVER['RDS_DB_NAME'];
+$charset = 'utf8' ;
+
+$dsn = "mysql:host={$dbhost};port={$dbport};dbname={$dbname};charset={$charset}";
+$username = $_SERVER['RDS_USERNAME'];
+$password = $_SERVER['RDS_PASSWORD'];
+
+$dbh = new PDO($dsn, $username, $password);
+// $dbh = new PDO('mysql:host=privilegedweb.cp7ajiordp2y.us-east-1.rds.amazonaws.com;dbname=privilegedweb;charset=utf8;', 'privilegedweb', 'SA3MNjQ2LrtMtlF1Gx3F');
 
 if (count($_POST) > 0) {
   $name = htmlspecialchars(trim($_POST['name']));
