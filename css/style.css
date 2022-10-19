@@ -267,6 +267,7 @@ body.active {
     top: 88px;
     overflow: auto;
     background: #F9F6EF;
+    opacity: 1;
 
 }
 
