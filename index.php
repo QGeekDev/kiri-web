@@ -155,7 +155,7 @@ VALUES (:name, :email, :message)
                 </picture>
                 <div class="wrapper-block-home-content-btn">
                   <div class="block-home-content-app-btn">
-                    <a href="#">
+                    <a href="https://apps.apple.com/us/app/kiri-gay-dating-chat-meet/id6443789550">
                       <picture>
                         <source srcset="./images/app-btn.webp" type="image/webp">
                         <source srcset="./images/app-btn.jpg" type="image/jpeg">
@@ -169,7 +169,7 @@ VALUES (:name, :email, :message)
                     </a>
                   </div>
                   <div class="block-home-content-google-btn">
-                    <a href="#">
+                    <a href="https://apps.apple.com/us/app/kiri-gay-dating-chat-meet/id6443789550">
                       <picture>
                         <source srcset="./images/google-btn.webp" type="image/webp">
                         <source srcset="./images/google-btn.jpg" type="image/jpeg">
