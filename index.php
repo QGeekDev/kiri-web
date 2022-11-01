@@ -81,7 +81,7 @@ VALUES (:name, :email, :message)
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- HTML Meta Tags -->
+  <!-- HTML Meta Tags ssss-->
   <title>Kiri - Gay Dating & Chat</title>
   <meta name="description" content="Find exactly who you like by using Kiri's powerful search and filters. View and chat with Kiri members from your neighborhood or around the globe.">
   <meta name="keywords" content="1">
